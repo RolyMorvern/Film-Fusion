@@ -1,0 +1,29 @@
+.searchContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.filter {
+	background-color: #C1D8C3;
+	border: none;
+	display: block;
+	margin: 50px;
+	padding: 15px 25px;
+	border-radius: 15px 0 0 15px;
+	font-size: 1.01rem;
+	width: 50%;	
+	margin-right: 0 !important;
+}
+.search {
+	width: 2rem;
+	background-color: #6A9C89;
+	padding: 12.75px 25px;
+	border-radius: 0 15px 15px 0;
+	cursor: pointer;
+	margin-right: 50px;
+}
+@media (max-width: 500px) {
+	.filter {
+		width: 75%;	
+	}
+}

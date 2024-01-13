@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+.container {
+	text-align: center;
+}
+.header {
+	font-family: "Holtwood One SC", sans-serif;
+	color: #CD5C08;
+}
+.input {
+	background-color: rgba(106, 156, 137, 0.5);
+	border: none;
+	display: block;
+	margin: 50px;
+	padding: 15px 25px;
+	border-radius: 15px;
+	font-size: 1.01rem;
+}
+.url {
+	min-width: 30%;
+}
+.bg {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -4;
+}
+@media (max-width: 1000px) {
+	.input {
+		background-color: #C1D8C3;
+	}
+}
+@media (max-width: 700px) {
+	.input {
+		margin: 15px !important;
+	}
+	.form {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+	.bg {
+		top: 200px;
+		right: -100px;
+	}
+}
+@media (max-width: 500px) {
+	.bg {
+		display: none;
+	}
+}

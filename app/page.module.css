@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&family=Krona+One&display=swap');
+.heroBg {
+	position: absolute;
+	z-index: -4;
+	right: 0;
+	top: 75px;
+}
+.textContainer {
+	padding-top: 5%;
+	width: 65%;
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+.holtwood {
+	font-family: "Holtwood One SC", sans-serif;
+}
+.orange {
+	color: #CD5C08;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+.blue {
+	color: #6A9C89;
+}
+.paragraph {
+	padding-top: 0;
+	margin-top: 0px;	
+}
+.button {
+	font-family: "Krona One", sans-serif;
+	padding: 15px 25px;
+	text-decoration: none;
+	color: white;
+	background-color: #CD5C08;
+	border-radius: 20px;
+	margin-top: 50px;
+	-webkit-box-shadow: 10px 10px 0px 3px #FFFFFF; 
+	box-shadow: 10px 10px 0px 3px #FFFFFF;
+	transition: 500ms;
+	margin-bottom: 25px;
+}
+.button:hover {
+	-webkit-box-shadow: 5px 5px 0px 3px #FFFFFF; 
+	box-shadow: 5px 5px 0px 3px #FFFFFF;
+}
+.button:active {
+	-webkit-box-shadow: 0px 0px 0px 0px #FFFFFF; 
+	box-shadow: 0px 0px 0px 0px #FFFFFF;
+}
+
+@media (max-width: 850px) {
+	.textContainer {
+		width: 100%;
+	}
+}
+@media (max-width: 600px) {
+	.heroBg {
+		display: none;
+	}
+
+	.textContainer {
+		padding-left: 25px;
+		padding-right: 25px;
+		width: calc(100% - 50px);
+	}
+}

@@ -5,7 +5,7 @@ export const GET = async req => {
 	let genre = url.searchParams.get("genre");
 	let actor = url.searchParams.get("actor");
 	let services = url.searchParams.get("services");
-	let minYear = url.searchParams.get("min-year");
+	let minYear = url.searchParams.get("minYear");
 	let title = url.searchParams.get("title");
 	let id = url.searchParams.get("id");
 	genre ? genre = genre.split("|") : genre = false;

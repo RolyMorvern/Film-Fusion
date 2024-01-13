@@ -226,7 +226,7 @@ export const GET = async req => {
 			genres: ["action", "adventure", "drama"],
 			tags: ["Fantasy", "Epic", "Ring"],
 			year: 2001,
-			img: "https://raw.githubusercontent.com/RolyMorvern/Images-Film-Fusion/main/The%20Lord%20of%20the%20Rings%3A%20The%20Fellowship%20of%20the%20Ring.jpg",
+			img: "https://i.ibb.co/WskFz03/ff22cad6-2218-414d-b853-3f95d76905c7.jpg",
 			imdb_rating: "8.9",
 			link: "/films/18"
 		},

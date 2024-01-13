@@ -5,10 +5,10 @@ import Card from "@/components/Card";
 
 const Results = () => {
 	const [ movies, setMovies ] = useState([]);
-	const fullUrl = window.location.href;
-	const cutUrl = fullUrl.split('?')[1];
-	const apiUrl = `/api?${cutUrl}`;
 	useEffect(() => {
+		const fullUrl = window.location.href;
+		const cutUrl = fullUrl.split('?')[1];
+		const apiUrl = `/api?${cutUrl}`;
 		const fetchData = async () => {
 			try {
 				const response = await fetch(apiUrl);
@@ -20,7 +20,6 @@ const Results = () => {
 		};
 		fetchData();
 	}, [movies]);
-	console.log(movies)
 	return (
 		<div className={styles.cardsContainer}>
 			{

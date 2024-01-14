@@ -5,7 +5,7 @@
 	align-items: center;
 	border-bottom: 1px solid black;
 }
-
+ 
 .linkContainer {
 	width: 75%;
 	display: flex;
@@ -22,10 +22,13 @@
 	.linkContainer {
 		display: none;
 		position: absolute;
+		z-index: 10;
 		width: 100vw;
 		height: 100vh;
 		top: 0;
 		right: 0;
+		left: 0;
+		bottom: 0;
 		background-color: rgba(106, 156, 137, 0.85);
 		flex-direction: column;
 		position: fixed;

@@ -13,7 +13,9 @@ const Navbar = () => {
 				<Link className={styles.link} href="/browse-all">Browse All</Link>
 				<Link className={styles.link} href="/message">Submit a movie</Link>
 			</div>
-			<Hamburger />
+			<span style={{zIndex: 27}}>
+				<Hamburger />
+			</span>
 		</nav>
 	)
 }

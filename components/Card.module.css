@@ -69,7 +69,8 @@
 	color: white;
 }
 @media (max-width: 350px) {
-	.card {
+	.card, .content {
 		width: 200px;
+		overflow-y: scroll;
 	}
 }

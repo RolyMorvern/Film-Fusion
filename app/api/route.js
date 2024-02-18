@@ -697,6 +697,90 @@ export const GET = async req => {
 			img: "https://i.ibb.co/58KHk1y/99clzx8izw.jpg",
 			imdb_rating: "6.5",
 			link: "/films/57"
+		},
+		{
+			id: 58,
+			title: "Interstellar",
+			cast: ["Ellen Burstyn", "Matthew McConaughey", "Mackenzie Foy", "John Lithgow"],
+			watch_options: ["Youtube", "Apple TV", "Canal VOD", "Amazon Prime Video"],
+			genres: ["sci-fi", "adventure", "drama"],
+			tags: ["Adventure", "Sci-fi", "Space"],
+			year: 2014,
+			img: "https://i.ibb.co/7NLq7Gw/image.png",
+			imdb_rating: "8.7",
+			link: "/films/58"
+		},
+		{
+			id: 59,
+			title: "The Wolf of Wall Street",
+			cast: ["Leonardo DiCaprio", "Jonah Hill", "Margot Robbie", "Matthew McConaughey"],
+			watch_options: ["Youtube", "Apple TV", "Canal VOD", "Amazon Prime Video"],
+			genres: ["biography", "comedy", "crime"],
+			tags: ["Biography", "Comedy", "Crime"],
+			year: 2013,
+			img: "https://i.ibb.co/Jq9r3jV/image.png",
+			imdb_rating: "8.2",
+			link: "/films/59"
+		},
+		{
+			id: 60,
+			title: "Once Upon a Time ... in Holywood",
+			cast: ["Leonardo DiCaprio", "Brad Pitt", "Margot Robbie", "Emile Hirsch"],
+			watch_options: ["Youtube", "Apple TV", "Canal VOD", "Amazon Prime Video", "Netflix"],
+			genres: ["comedy", "drama"],
+			tags: ["Comedy", "Drama", "60's"],
+			year: 2019,
+			img: "https://i.ibb.co/z7MYH9r/image.png",
+			imdb_rating: "7.6",
+			link: "/films/60"
+		},
+		{
+			id: 61,
+			title: "Freelance",
+			cast: ["John Cena", "Alison Brie", "Juan Pablo Raba", "Christian Slater"],
+			watch_options: ["Amazon Prime Video"],
+			genres: ["comedy", "drama", "action"],
+			tags: ["Action", "Comedy", "Drama"],
+			year: 2023,
+			img: "https://i.ibb.co/D4vMPmQ/s-l1600.jpg",
+			imdb_rating: "5.5",
+			link: "/films/61"
+		},
+		{
+			id: 62,
+			title: "Bullet Train",
+			cast: ["Brad Pitt", "Joey King", "Aaron Taylor-Johnson", "Brian Tyree Henry"],
+			watch_options: ["Amazon Prime Video", "Youtube", "Apple TV", "Canal VOD"],
+			genres: ["comedy", "drama", "action", "thriller"],
+			tags: ["Action", "Comedy", "Thriller"],
+			year: 2022,
+			img: "https://i.ibb.co/Gkx3Y6w/image.png",
+			imdb_rating: "7.3",
+			link: "/films/62"
+		},
+		{
+			id: 63,
+			title: "Role Play",
+			cast: ["Kaley Cuoco", "David Oyelowo", "Bill Nighy", "Connie Nielsen"],
+			watch_options: ["Amazon Prime Video", "Canal Plus"],
+			genres: ["comedy", "drama", "action", "romance"],
+			tags: ["Action", "Comedy", "Romance"],
+			year: 2023,
+			img: "https://i.ibb.co/p4BhKsC/image.png",
+			imdb_rating: "5.5",
+			link: "/films/63"
+		};
+		{
+			id: 64,
+			title: "War Dogs",
+			cast: ["Miles Teller", "Jonah Hill", "Steve Lantz", "Gregg Weiner"],
+			watch_options: ["Amazon Prime Video", "Canal VOD", "Apple TV", "Youtube"],
+			genres: ["biography", "drama", "crime"],
+			tags: ["Biography", "Comedy", "Crime"],
+			year: 2016,
+			img: "https://i.ibb.co/rfctPfy/image.png",
+			imdb_rating: "7.1",
+			link: "/films/64"
 		}
 	];
 	let filteredArray = [];

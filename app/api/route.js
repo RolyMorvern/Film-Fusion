@@ -769,7 +769,7 @@ export const GET = async req => {
 			img: "https://i.ibb.co/p4BhKsC/image.png",
 			imdb_rating: "5.5",
 			link: "/films/63"
-		};
+		}, 
 		{
 			id: 64,
 			title: "War Dogs",
